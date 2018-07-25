@@ -10,4 +10,5 @@
 ----
 
 **Instalar ambiente anaconda:** conda env create -f environment.yml
+
 **Acceder al ambiente:** source activate ml
