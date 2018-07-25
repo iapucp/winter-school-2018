@@ -1,0 +1,116 @@
+name: ml
+channels:
+- defaults
+- conda-forge
+dependencies:
+- altair
+- dask
+- jupyter_contrib_nbextensions
+- h5py
+- scipy
+- numpy
+- pillow
+- opencv
+- jpeg
+- spacy
+- zlib
+- freetype
+- libtiff
+- bleach
+- certifi
+- cffi
+- cookiecutter
+- cycler
+- decorator
+- entrypoints
+- expat
+- fire
+- html5lib
+- icu
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jedi
+- jinja2
+- joblib
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- libiconv
+- libpng
+- libsodium
+- libxml2
+- markupsafe
+- matplotlib
+- mistune
+- mkl
+- nbconvert
+- nbformat
+- notebook
+- numpy
+- olefile
+- openssl
+- pandas
+- pandocfilters
+- path.py
+- patsy
+- pcre
+- pexpect
+- pickleshare
+- pip
+- prompt_toolkit
+- pycparser
+- pygments
+- pylint
+- pyparsing
+- pyqt
+- python>=3.6.0
+- python-dateutil
+- pytz
+- pyzmq
+- qt
+- qtconsole
+- scipy
+- seaborn
+- setuptools
+- simplegeneric
+- sip
+- six
+- sqlite
+- statsmodels
+- terminado
+- testpath
+- tk
+- tornado
+- tqdm
+- traitlets
+- wcwidth
+- wheel
+- widgetsnbextension
+- xz
+- vega3
+- vega_datasets
+- zeromq
+- bcolz
+- prompt_toolkit
+- pip:
+  - autopep8
+  - awscli
+  - feather-format
+  - graphviz
+  - imutils
+  - ipywidgets
+  - isoweek
+  - kaggle-cli
+  - pandas_summary
+  - pdpbox
+  - plotnine
+  - rfpimp
+  - scikit-optimize
+  - sklearn_pandas
+  - treeinterpreter
+  - tensorflow
+  - keras
