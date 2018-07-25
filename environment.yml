@@ -3,8 +3,6 @@ channels:
 - defaults
 - conda-forge
 dependencies:
-- altair
-- dask
 - jupyter_contrib_nbextensions
 - h5py
 - scipy
@@ -12,14 +10,12 @@ dependencies:
 - pillow
 - opencv
 - jpeg
-- spacy
 - zlib
 - freetype
 - libtiff
 - bleach
 - certifi
 - cffi
-- cookiecutter
 - cycler
 - decorator
 - entrypoints
@@ -83,7 +79,6 @@ dependencies:
 - statsmodels
 - terminado
 - testpath
-- tk
 - tornado
 - tqdm
 - traitlets
@@ -91,20 +86,14 @@ dependencies:
 - wheel
 - widgetsnbextension
 - xz
-- vega3
-- vega_datasets
 - zeromq
-- bcolz
 - prompt_toolkit
+- python-graphviz
 - pip:
-  - autopep8
-  - awscli
   - feather-format
-  - graphviz
   - imutils
   - ipywidgets
   - isoweek
-  - kaggle-cli
   - pandas_summary
   - pdpbox
   - plotnine
