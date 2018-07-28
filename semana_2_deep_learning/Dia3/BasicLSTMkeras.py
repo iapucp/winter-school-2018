@@ -5,9 +5,10 @@ This code is a modified version of both tutorials:
 https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/recurrent_network.py
 https://github.com/MorvanZhou/tutorials/tree/master/tensorflowTUT
 """
+import pandas.core.ops as ops
 import csv
 import dataSet_ts as dt
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
 
 from keras.models import Sequential
@@ -18,7 +19,7 @@ from keras import initializers#initializations
 from keras import optimizers
 
 # set random seed for comparing the two result calculations
-tf.set_random_seed(1)
+#tf.set_random_seed(1)
 
 # hyperparameters
 lr = 0.001

@@ -11,7 +11,7 @@ class feature:
 			imagearray=np.asarray(l).astype(float)
 			return imagearray
 		except IOError:
-			print "File Not Found " +  imagepath
+			print ("File Not Found " +  imagepath)
 			return np.zeros((10,10))
 
 	# Returns a Normalized 2D Array from an Input Array. 
