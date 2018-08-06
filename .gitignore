@@ -1,6 +1,8 @@
 *.feather
 *.pkl
 
+semana_2_deep_learning/Dia2/imgs_ejercicio6/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
