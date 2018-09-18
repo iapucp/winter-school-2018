@@ -14,14 +14,16 @@ def download_one(x, path):
 
     if (r.status_code == requests.codes.ok):
         fn = x.split('/')[-1]
-        img_file = path /fn
+        img_file = path / fn
+        img_file = img_file.with_name(img_file.stem[:100] + img_file.suffix)
+
         with open(img_file, 'wb') as f:
             f.write(r.content)
-
         try:
             Image.open(img_file)
         except Exception:
-            img_file.unlink()
+            if img_file.exists():
+                img_file.unlink()
         else:
             ok = 1
     
